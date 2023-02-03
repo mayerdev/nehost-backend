@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "dc-api-core",
+    "dev": "dc-api-core --dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dc-api-core": "0.3.2",
+    "dc-api-mongo": "^0.2.0-3",
+    "node-ssh": "^12.0.4",
+    "proxmox-api": "^0.2.0"
+  }
+}

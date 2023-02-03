@@ -1,0 +1,20 @@
+{
+	"port": 8081,
+	"plugins": ["dc-api-mongo"],
+	"db": {
+		"mongo": {
+			"host": "localhost",
+			"name": "nehost"
+		}
+	},
+	"session": {
+		"secret": "secret_here",
+		"store": "mongo",
+		"ttl": "4h"
+	},
+	"modulbank": {
+		"merchant_id": "",
+		"test_secret_key": "",
+		"secret_key": ""
+	}
+}
